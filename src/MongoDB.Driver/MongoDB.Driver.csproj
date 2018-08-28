@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MongoDB.Driver</RootNamespace>
-    <AssemblyName>MongoDB.Driver</AssemblyName>
+    <AssemblyName>RAI.MongoDB.Driver</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
@@ -44,7 +44,7 @@
     <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;NET45</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\MongoDB.Driver.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\RAI.MongoDB.Driver.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
     <LangVersion>6</LangVersion>
   </PropertyGroup>
@@ -55,7 +55,7 @@
     <DefineConstants>TRACE;CODE_ANALYSIS;NET45</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\MongoDB.Driver.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\RAI.MongoDB.Driver.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
