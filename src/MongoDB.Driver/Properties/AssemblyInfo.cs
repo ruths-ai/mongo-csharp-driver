@@ -21,9 +21,9 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MongoDB.Driver")]
+[assembly: AssemblyTitle("RAI.MongoDB.Driver")]
 [assembly: AssemblyDescription("Official MongoDB supported driver for MongoDB.  See http://www.mongodb.org/display/DOCS/CSharp+Language+Center for more details.")]
-[assembly: AssemblyProduct("MongoDB.Driver")]
+[assembly: AssemblyProduct("RAI.MongoDB.Driver")]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("09134819-2a03-409d-8f38-462bb20e23aa")]
