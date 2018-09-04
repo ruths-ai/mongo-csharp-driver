@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MongoDB.Driver.Core")]
+[assembly: AssemblyTitle("RAI.MongoDB.Driver.Core")]
 [assembly: AssemblyDescription("Official MongoDB supported Driver Core library. See http://www.mongodb.org/display/DOCS/CSharp+Language+Center for more details.")]
 [assembly: AssemblyProduct("MongoDB.Driver.Core")]
 
