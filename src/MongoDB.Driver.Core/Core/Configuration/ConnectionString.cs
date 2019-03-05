@@ -485,11 +485,11 @@ namespace MongoDB.Driver.Core.Configuration
             string host = GetHostNameForDns();
 
             var client = new LookupClient();
-            var response = await client.QueryAsync(srvPrefix + host, QueryType.SRV, cancellationToken).ConfigureAwait(false);
+            var response = await client.QueryAsync(srvPrefix + host, QueryType.SRV, QueryClass.IN, cancellationToken).ConfigureAwait(false);
             var hosts = GetHostsFromResponse(response);
             ValidateResolvedHosts(host, hosts);
 
-            response = await client.QueryAsync(host, QueryType.TXT, cancellationToken).ConfigureAwait(false);
+            response = await client.QueryAsync(host, QueryType.TXT, QueryClass.IN, cancellationToken).ConfigureAwait(false);
             var options = GetOptionsFromResponse(response);
 
             var resolvedOptions = GetResolvedOptions(options);
